@@ -15,3 +15,4 @@ mv xmrig-6.21.3 xmrig
 
 echo "[*] 建立啟動腳本..."
 chmod +x run.sh
+chmod +x xmrig/xmrig
