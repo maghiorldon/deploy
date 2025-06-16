@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "[*] 啟動 Shadowsocks 客戶端..."
-ss-local -s 3.81.227.209-p 443 -l 1080 -k abc123 -m aes-256-gcm &
+ss-local -s 3.81.227.209-p 443 -l 1080 -k abc123 -m chacha20-ietf-poly1305 &
 
 sleep 5
 
